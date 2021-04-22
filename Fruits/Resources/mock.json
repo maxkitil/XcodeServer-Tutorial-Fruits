@@ -7,5 +7,6 @@
 	{ "name": "Pineapple 🍍" },
 	{ "name": "Pear 🍐" },
 	{ "name": "Tangerine 🍊" },
-	{ "name": "Cherries 🍒" }
+	{ "name": "Cherries 🍒" },
+  { "name": "Not fruit" }
 ]
