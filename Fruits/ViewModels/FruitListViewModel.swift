@@ -43,6 +43,7 @@ class FruitListViewModel: ObservableObject {
 		if let url = Bundle.main.url(forResource: fileName, withExtension: "json") {
 			do {
         print("Dummy print")
+        print("Test on commit")
 				let data = try Data(contentsOf: url)
 				let decoder = JSONDecoder()
 				let jsonData = try decoder.decode([Fruit].self, from: data)
